@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.prosysopc:ua-sdk:2.2.0">
+    <CLASSES>
+      <root url="jar://H:/MVN/MVNWord/com/prosysopc/ua-sdk/2.2.0/ua-sdk-2.2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://H:/MVN/MVNWord/com/prosysopc/ua-sdk/2.2.0/ua-sdk-2.2.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://H:/MVN/MVNWord/com/prosysopc/ua-sdk/2.2.0/ua-sdk-2.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

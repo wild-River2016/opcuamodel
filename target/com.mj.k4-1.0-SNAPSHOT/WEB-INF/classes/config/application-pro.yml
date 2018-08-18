@@ -1,0 +1,58 @@
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/k8?allowMultiQueries=true&useUnicode=true&characterEncoding=utf8&useSSL=false
+    username: root
+#    password: Tang1994!
+    password: root
+#    password: root
+server:
+  port: 8089
+
+logging:
+  config: classpath:logback-spring.xml
+  level: debug
+
+#  path:
+#  file: D:\var\log\odoo
+
+# ===================================================================
+# videojetMarker properties
+# ===================================================================
+
+# ===================================================================
+# OpcUa properties
+# 配置OpcUa订阅节点需注意：
+# 1、同一类别对应于一个onDataChange处理事件
+# 2、同一设备出现多台，可参考下面格式书写配置，注意缩进，且必须写在类别的最前面，
+#    其中NodeBase 为所有节点的共有部分，No为设备编号，SubsribeNode为节点的变量名，No可以不写
+# 3、也可以单独配置单一节点
+# ===================================================================
+
+
+
+#opcua:
+#  retry:
+#        connBackOffPeriod: 10000
+#        maxAttempts: 3
+#        backOffPeriod: 1000
+#  publishingRate: 100
+#  address: opc.tcp://192.168.0.100:4840
+#  #第一个到位信息 到位是1  Identifier	"OPCUA"."OPCEA_DATA"[0] 把数据写进去
+#  operationRoomSubscribeNodes:
+#    - NodeBase# "OPCUA"
+#      - SubsribeNode#  "OPCUA_Product model"[4]
+#  #区分托盘型号 0是前保低配 1是前保高配 2是后保低配 3是后保高配
+#  vacuumPumpSubscribeNodes:
+#    - NodeBase# "OPCUA"
+#      - SubsribeNode# "OPCUA_Product model"[0], "OPCUA_Product model"[1], "OPCUA_Product model"[2], "OPCUA_Product model"[3]
+#  #第二工位到位信息
+#  affuseMachineSubscribeNodes:
+#    - NodeBase# "OPCUA"
+#      - SubsribeNode# "OPCUA_Product model"[14]
+#  #获取第二工位到位数据
+#  mainLineOfVacuumPumpingSubscribeNodes:
+#    - NodeBase# "OPCUA"
+#      -  SubsribeNode# "OPCEA_DATA"[31]
+#上传文件大小设置
+#spring.http.multipart.maxFileSize: 100Mb
+#spring.http.multipart.maxRequestSize: 100Mb

@@ -1,0 +1,54 @@
+spring:
+  application:
+    name: K8Admin
+  profiles:
+    active: dev
+  datasource:
+#    type: com.alibaba.druid.pool.DruidDataSource
+#    driverClassName: com.mysql.jdbc.Driver
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd HH:mm:ss
+  jpa:
+      properties:
+        hibernate:
+          hbm2ddl:
+#            auto: update
+          dialect: org.hibernate.dialect.MySQL5Dialect
+
+
+  redis:
+    database: 0
+    host: 127.0.0.1
+    port: 6379
+    password:
+    timeout: 0
+    pool:
+      max-active: 8
+      max-wait: 1
+      max-idle: 8
+      min-idle: 0
+  aop:
+    proxy-target-class: true
+management:
+  security:
+  enabled: false #关掉安全认证
+  context-path: /management #actuator的访问路径　
+druid:
+  pool:
+    initialSize: 10
+    maxActive: 100
+    minIdle: 10
+
+
+#logging:
+#  level:
+#    com:
+#      xiaofangtech:
+#        sunt:
+#          controller: debug
+#          mapper: DEBUG
+#          helper: warn
+
+#          logging.level.com.xiaofangtech.sunt.controller = debug
+#          logging.level.com.xiaofangtech.sunt.helper = warn

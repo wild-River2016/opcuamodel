@@ -1,0 +1,128 @@
+{
+  "groups": [
+    {
+      "name": "opcua",
+      "type": "com.mj.k4.opcua.config.OpcUaProperties",
+      "sourceType": "com.mj.k4.opcua.config.OpcUaProperties"
+    },
+    {
+      "name": "opcua.retry",
+      "type": "com.mj.k4.opcua.config.OpcUaProperties$Retry",
+      "sourceType": "com.mj.k4.opcua.config.OpcUaProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "opcua.address",
+      "type": "java.lang.String",
+      "sourceType": "com.mj.k4.opcua.config.OpcUaProperties"
+    },
+    {
+      "name": "opcua.opposite-station-eight-subscribe-nodes",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.mj.k4.opcua.config.OpcUaProperties"
+    },
+    {
+      "name": "opcua.opposite-station-eleven-subscribe-nodes",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.mj.k4.opcua.config.OpcUaProperties"
+    },
+    {
+      "name": "opcua.opposite-station-five-subscribe-nodes",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.mj.k4.opcua.config.OpcUaProperties"
+    },
+    {
+      "name": "opcua.opposite-station-four-subscribe-nodes",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.mj.k4.opcua.config.OpcUaProperties"
+    },
+    {
+      "name": "opcua.opposite-station-nine-subscribe-nodes",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.mj.k4.opcua.config.OpcUaProperties"
+    },
+    {
+      "name": "opcua.opposite-station-one-subscribe-nodes",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.mj.k4.opcua.config.OpcUaProperties"
+    },
+    {
+      "name": "opcua.opposite-station-seven-subscribe-nodes",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.mj.k4.opcua.config.OpcUaProperties"
+    },
+    {
+      "name": "opcua.opposite-station-six-subscribe-nodes",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.mj.k4.opcua.config.OpcUaProperties"
+    },
+    {
+      "name": "opcua.opposite-station-ten-subscribe-nodes",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.mj.k4.opcua.config.OpcUaProperties"
+    },
+    {
+      "name": "opcua.opposite-station-thirteen-subscribe-nodes",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.mj.k4.opcua.config.OpcUaProperties"
+    },
+    {
+      "name": "opcua.opposite-station-three-subscribe-nodes",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.mj.k4.opcua.config.OpcUaProperties"
+    },
+    {
+      "name": "opcua.opposite-station-twelve-subscribe-nodes",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.mj.k4.opcua.config.OpcUaProperties"
+    },
+    {
+      "name": "opcua.opposite-station-two-subscribe-nodes",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.mj.k4.opcua.config.OpcUaProperties"
+    },
+    {
+      "name": "opcua.plc-list",
+      "type": "java.util.List<java.util.Map<java.lang.String,java.lang.String>>",
+      "sourceType": "com.mj.k4.opcua.config.OpcUaProperties"
+    },
+    {
+      "name": "opcua.positive-station-five-subscribe-nodes",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.mj.k4.opcua.config.OpcUaProperties"
+    },
+    {
+      "name": "opcua.positive-station-one-subscribe-nodes",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.mj.k4.opcua.config.OpcUaProperties"
+    },
+    {
+      "name": "opcua.positive-station-seven-subscribe-nodes",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.mj.k4.opcua.config.OpcUaProperties"
+    },
+    {
+      "name": "opcua.positive-station-six-subscribe-nodes",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.mj.k4.opcua.config.OpcUaProperties"
+    },
+    {
+      "name": "opcua.publishing-rate",
+      "type": "java.lang.Long",
+      "sourceType": "com.mj.k4.opcua.config.OpcUaProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "opcua.weld-joint-station-one-subscribe-nodes",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.mj.k4.opcua.config.OpcUaProperties"
+    },
+    {
+      "name": "opcua.weld-joint-station-two-subscribe-nodes",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.mj.k4.opcua.config.OpcUaProperties"
+    }
+  ],
+  "hints": []
+}
